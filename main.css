@@ -27,6 +27,8 @@ header {
 
 .menu {
     list-style: none;
+    display: flex;
+    gap: 20px;
 }
 
 .menu a {
@@ -101,7 +103,8 @@ aside{
     justify-content: space-between;
     list-style: none; 
     flex: 1 1 calc(25% - 16px); /* Quatro itens por linha com espaçamento */ 
-    margin-bottom: 24px; text-align: center; /* Centraliza o conteúdo */ 
+    margin-bottom: 24px; 
+    text-align: center; /* Centraliza o conteúdo */ 
     
 } 
 
@@ -181,6 +184,7 @@ footer li img {
         }
         .menu {
             list-style: none;
+            
         }
         
         .menu a {
